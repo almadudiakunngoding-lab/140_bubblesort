@@ -62,4 +62,15 @@ void bubblesortArray() {   //procedur untnk mengurutkan array dengan
                 cout << "--> ";
             }
         }
-   }
+}
+
+int main() {
+
+    input();
+
+    bubblesortArray();
+    display();
+
+    system("pause");
+    return 0;
+}
